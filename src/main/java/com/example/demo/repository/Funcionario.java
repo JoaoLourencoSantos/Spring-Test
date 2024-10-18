@@ -20,6 +20,8 @@ public class Funcionario {
     private Double salario;
     private UUID identifier;
 
+    private boolean excluido;
+
     public Long getId() {
         return id;
     }
