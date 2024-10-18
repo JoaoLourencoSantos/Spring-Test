@@ -18,7 +18,7 @@ public class Funcionario {
 
     private String setor;
     private Double salario;
-    private UUID key;
+    private UUID identifier;
 
     public Long getId() {
         return id;
@@ -60,11 +60,11 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public UUID getKey() {
-        return key;
+    public UUID getIdentifier() {
+        return identifier;
     }
 
-    public void setKey(UUID key) {
-        this.key = key;
+    public void setIdentifier(UUID key) {
+        this.identifier = key;
     }
 }
